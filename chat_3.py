@@ -35,6 +35,8 @@ Output: {{step: "Validate", content: "Seems like 4 is correct as adding two and 
 Output: {{step: "result", content: "2+2 equals 4 and that is calculated by adding two and two together to get four."}}
 """
 
+# the above is called as chai of though t prompting where the model is guided to think step by step
+
 result = client.chat.completions.create(
     model="gpt-4o",
     response_format={"type": "json_object"},
