@@ -162,7 +162,7 @@ Only create folders INSIDE the project root.
 Also add code in all created files and each folder should have atleast one file in it.
 """
 
-MODEL_NAME = "gemini-2.5-flash"   # ADD THIS
+MODEL_NAME = "gemini-2.5-flash"
 
 def call_model_with_retry(messages):
     try:
